@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    padding-top: 25px;
+    background: rgba(76, 118, 62, 1);
+    color: white;
+    background-image: url('../images/paws.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+    font-size: 20px;
+}
+.nav-list li:hover {
+    cursor: pointer;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.bg {
+    width: 85%;
+}
+
+.header-divs {
+    display: flex;
+    justify-content: space-around;
+}
+.heading {
+    padding-top: 150px;
+}
+.heading h1 {
+    font-weight: 800;
+    margin-bottom: 7px;
+    font-size: 45px;
+}
+.heading h2 {
+    font-size: 25px;
+    margin-bottom: 35px;
+}
