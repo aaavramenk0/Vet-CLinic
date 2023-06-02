@@ -57,7 +57,7 @@
     margin-bottom: 35px;
 }
 
-.advantages, .services, .love, .about ,footer {
+.advantages, .services, .love, .about, .reviews ,footer {
     padding: 50px 70px 60px 70px;
 }
 .advantage-wrapper {
@@ -164,6 +164,35 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
+}
+
+.reviews-heading {
+    font-weight: 800;
+    font-size: 34px;
+    padding-bottom: 60px;
+}
+.reviews-list {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+.review-card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:25px;
+    border-radius: 20px;
+    padding: 10px;  
+}
+.review-card img {
+    border-radius: 50px;
+}
+span {
+    font-weight: 600;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-style: italic;
 }
 
 footer {
