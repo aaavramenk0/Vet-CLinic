@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Pet | Vet clinic</title>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <header class="header">
@@ -18,7 +19,24 @@
                 <li class="menu-item"><a href="#about-us">Про клініку</a></li>
                 <li class="menu-item"><a href="#contacts">Контакти</a></li>
             </ul>
-            <a href=""><img src="images/button.jpg" alt=""></a>
+            <button id="myBtn"><img src="images/button.jpg" alt=""></button>
+
+            <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="submit" class="form">
+                <input type="text" id="name" placeholder="Ваше ім'я">
+                <input type="email" id="email" placeholder="Ваш e-mail">
+                <input type="phone" id="phone" placeholder="Ваш номер телефону">
+                <label for="date">Бажана дата прийому</label><input type="date" name="date" id="date">
+                <button type="submit" id="modalBtn">Відправити повідомлення</button>
+            </form>
+            </div>
+        
+        </div>
         </nav>
 
         <!-- Header heading and picture -->
@@ -26,7 +44,7 @@
             <div class="heading">
                 <h1>Правильний догляд та <br> здоров'я вашого <br> улюбленця</h1>
                 <h2>Ветеринарна клініка, де дбають про <br> комфорт вашої тварини</h2>
-                <a href=""><img src="images/button.jpg" alt=""></a>
+                <button id="myBtn2"><img src="images/button.jpg" alt=""></button>
             </div>
             <div class="picture">
                 <img src="images/bg.jpg" alt="" class="bg">
@@ -167,5 +185,7 @@
             <p>2023 Усі права захищені</p>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
